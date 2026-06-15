@@ -182,13 +182,12 @@ export default function Home() {
           <Terminal />
         </div>
       </section>
-
-   
+           
       <section id="about" className="px-8 py-20 max-w-[1100px] mx-auto">
         <div className="border-t border-[#1e2d45] pt-14">
           <div className="font-mono text-[11px] text-teal-400 tracking-[0.15em] mb-5">ABOUT</div>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-12">
-            <div>
+          <div className="flex flex-col lg:flex-row gap-12 items-start">
+            <div className="flex-1">
               <h2 className="text-[32px] font-bold text-white mb-6 font-[Space_Grotesk]">
                 I find bugs at the<br />code level — not just<br />the surface.
               </h2>
@@ -204,7 +203,7 @@ export default function Home() {
                 chat application across auth flows, WebSocket lifecycle, and cross-tab sync.
               </p>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-0 lg:w-[380px] shrink-0">
               {[
                 { label: 'Automation', value: 'Selenium C# · Page Object Model' },
                 { label: 'Testing', value: 'Manual · Exploratory · API · Regression' },
