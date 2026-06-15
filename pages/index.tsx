@@ -157,7 +157,7 @@ export default function Home() {
 
           <p className="text-base text-gray-400 leading-7 mb-8 max-w-[420px]">
             QA Engineer & Full-Stack Developer. I build software and break it on purpose —
-            so your users don't have to find the bugs first.
+            so your users don't have to.
           </p>
 
           <div className="flex gap-3 flex-wrap">
@@ -183,18 +183,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT */}
+   
       <section id="about" className="px-8 py-20 max-w-[1100px] mx-auto">
         <div className="border-t border-[#1e2d45] pt-14">
           <div className="font-mono text-[11px] text-teal-400 tracking-[0.15em] mb-5">ABOUT</div>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-12">
             <div>
-              <h2 className="text-[32px] font-bold text-white mb-4 font-[Space_Grotesk]">
-                I find the bugs<br />before your users do.
+              <h2 className="text-[32px] font-bold text-white mb-6 font-[Space_Grotesk]">
+                I find bugs at the<br />code level — not just<br />the surface.
               </h2>
+              <p className="text-gray-400 leading-[1.8] text-[15px] mb-4">
+                I work across both sides of the stack — building in .NET and React, 
+                testing with Selenium and Postman. That means I understand why bugs 
+                happen, not just that they do. My reports come with reproduction steps, 
+                severity classification, and suggested fixes.
+              </p>
               <p className="text-gray-400 leading-[1.8] text-[15px]">
-                Final-year student at VISER Belgrade with hands-on experience in QA automation and full-stack development.
-                My background in both building and testing software means I understand why bugs happen — not just that they do.
+                Recent work covers Selenium automation for a C# scraper, end-to-end API 
+                testing of an Azure Functions backend, and real-time testing of a SignalR 
+                chat application across auth flows, WebSocket lifecycle, and cross-tab sync.
               </p>
             </div>
             <div className="flex flex-col gap-4">
